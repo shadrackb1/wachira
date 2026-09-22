@@ -1,10 +1,12 @@
-﻿# wachira
+# Wachira Wekhomba Aim & Associates
 
-My Google AI Studio App
+Law firm website with services, team, and contact pages.
+
+**Status:** brand site
 
 ## Stack
 
-react Â· express Â· vite Â· typescript Â· tailwindcss Â· firebase Â· node
+React, TypeScript, Vite, Tailwind
 
 ## Run locally
 
@@ -13,4 +15,4 @@ react Â· express Â· vite Â· typescript Â· tailwindcss Â· firebase Â·
 
 ## License
 
-Private / all rights reserved.
+All rights reserved.
