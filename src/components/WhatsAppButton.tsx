@@ -4,7 +4,7 @@ import { motion } from 'motion/react';
 
 const WhatsAppButton = () => {
   const phoneNumber = "254713209487"; // Using one of the provided numbers
-  const message = "Hello, I would like to enquire about legal services.";
+  const message = "Hello. I'd like to ask about legal services.";
   const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
 
   return (

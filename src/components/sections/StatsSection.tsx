@@ -3,10 +3,10 @@ import StatCounter from '../ui/StatCounter';
 
 const StatsSection = ({ data }: { data: any }) => {
   const stats = data.stats || [
-    { end: 15, suffix: "+", label: "Years Experience" },
-    { end: 500, suffix: "+", label: "Successful Cases" },
-    { end: 120, suffix: "+", label: "Corporate Clients" },
-    { end: 2, label: "Cities Served" }
+    { end: 2, label: "Offices" },
+    { end: 9, label: "Practice areas" },
+    { end: 6, label: "Consultation types" },
+    { end: 2, label: "Cities" }
   ];
 
   return (

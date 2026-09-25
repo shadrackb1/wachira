@@ -47,15 +47,15 @@ const Consultation = () => {
             <div className="w-20 h-20 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6">
               <CheckCircle className="h-10 w-10 text-green-600" />
             </div>
-            <h2 className="font-serif text-3xl font-bold text-gray-900 mb-4">Request Received</h2>
+            <h2 className="font-serif text-3xl font-bold text-gray-900 mb-4">Request received</h2>
             <p className="text-gray-600 mb-6">
-              Thank you, {formData.name}. Your consultation request for <strong>{startDate?.toLocaleDateString()}</strong> has been received. Our team will confirm your appointment via email shortly.
+              Thank you, {formData.name}. We'll confirm your appointment for <strong>{startDate?.toLocaleDateString()}</strong> by email during office hours.
             </p>
             <button 
               onClick={() => setSubmitted(false)}
               className="bg-primary text-white font-bold py-3 px-8 rounded-sm hover:bg-primary/90 transition-colors shadow-md hover:shadow-lg transform hover:-translate-y-0.5"
             >
-              Book Another
+              Book another consultation
             </button>
           </motion.div>
         </div>
@@ -67,8 +67,8 @@ const Consultation = () => {
     <PageTransition>
       <div className="bg-gray-50 min-h-screen pb-20">
         <Helmet>
-          <title>Book Consultation | Wachira Wekhomba Aim & Associates</title>
-          <meta name="description" content="Schedule a legal consultation with our expert advocates." />
+          <title>Book a consultation · Wachira Wekhomba Aim & Associates</title>
+          <meta name="description" content="Request a consultation slot with our advocates." />
         </Helmet>
 
         {/* Header */}
@@ -81,7 +81,7 @@ const Consultation = () => {
               transition={{ duration: 0.8 }}
               className="font-serif text-4xl md:text-6xl font-bold mb-4"
             >
-              Schedule a Consultation
+              Book a consultation
             </motion.h1>
             <motion.p 
               initial={{ opacity: 0, y: 20 }}
@@ -89,7 +89,7 @@ const Consultation = () => {
               transition={{ duration: 0.8, delay: 0.2 }}
               className="text-lg md:text-xl text-gray-300 max-w-2xl mx-auto font-light"
             >
-              Secure your time with our legal experts.
+              Choose a type, a date, and tell us briefly what you need.
             </motion.p>
           </div>
         </div>
@@ -105,25 +105,25 @@ const Consultation = () => {
             <div className="bg-gray-900 text-white p-10 md:w-1/3 flex flex-col justify-between relative overflow-hidden">
               <div className="absolute inset-0 bg-primary/20"></div>
               <div className="relative z-10">
-                <h3 className="font-serif text-2xl font-bold text-accent mb-8">Why Consult Us?</h3>
+                <h3 className="font-serif text-2xl font-bold text-accent mb-8">What a consultation covers</h3>
                 <ul className="space-y-8">
                   <li className="flex items-start group">
                     <div className="bg-accent/10 p-2 rounded-full mr-4 group-hover:bg-accent group-hover:text-primary transition-colors">
                       <CheckCircle className="h-5 w-5 text-accent group-hover:text-primary transition-colors" />
                     </div>
-                    <span className="text-sm text-gray-300 leading-relaxed group-hover:text-white transition-colors">Expert legal analysis of your unique situation.</span>
+                    <span className="text-sm text-gray-300 leading-relaxed group-hover:text-white transition-colors">A read of your facts and documents</span>
                   </li>
                   <li className="flex items-start group">
                     <div className="bg-accent/10 p-2 rounded-full mr-4 group-hover:bg-accent group-hover:text-primary transition-colors">
                       <CheckCircle className="h-5 w-5 text-accent group-hover:text-primary transition-colors" />
                     </div>
-                    <span className="text-sm text-gray-300 leading-relaxed group-hover:text-white transition-colors">Clear strategic roadmap for your case.</span>
+                    <span className="text-sm text-gray-300 leading-relaxed group-hover:text-white transition-colors">Options, risks, and what each one costs in time and money</span>
                   </li>
                   <li className="flex items-start group">
                     <div className="bg-accent/10 p-2 rounded-full mr-4 group-hover:bg-accent group-hover:text-primary transition-colors">
                       <CheckCircle className="h-5 w-5 text-accent group-hover:text-primary transition-colors" />
                     </div>
-                    <span className="text-sm text-gray-300 leading-relaxed group-hover:text-white transition-colors">Confidential and professional environment.</span>
+                    <span className="text-sm text-gray-300 leading-relaxed group-hover:text-white transition-colors">A written summary of next steps, if you instruct us after</span>
                   </li>
                 </ul>
               </div>
@@ -241,7 +241,7 @@ const Consultation = () => {
                     value={formData.description}
                     onChange={handleChange}
                     className="w-full px-4 py-3 bg-gray-50 border-b-2 border-gray-200 focus:border-primary outline-none transition-all resize-none text-gray-900 placeholder-gray-400"
-                    placeholder="Please provide a brief overview..."
+                    placeholder="Short summary of the issue and any dates we should know."
                   ></textarea>
                 </div>
 
@@ -254,7 +254,7 @@ const Consultation = () => {
                     <CheckCircle className="h-5 w-5" />
                   </button>
                   <p className="text-xs text-gray-500 mt-6 text-center">
-                    By submitting this form, you agree to our privacy policy. Your information is kept strictly confidential.
+                    By sending this form you agree to our privacy policy. We treat the details as confidential.
                   </p>
                 </div>
 

@@ -18,7 +18,7 @@ const Team = () => {
               transition={{ duration: 0.8 }}
               className="font-serif text-5xl md:text-6xl font-bold mb-6"
             >
-              Our Team
+              People
             </motion.h1>
             <motion.p 
               initial={{ opacity: 0, y: 20 }}
@@ -26,7 +26,7 @@ const Team = () => {
               transition={{ duration: 0.8, delay: 0.2 }}
               className="text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto font-light"
             >
-              Meet the dedicated professionals behind our success.
+              Advocates and staff at the firm.
             </motion.p>
           </div>
         </div>
@@ -74,7 +74,7 @@ const Team = () => {
                     </div>
 
                     <p className="text-gray-600 leading-relaxed mb-10 text-lg">
-                      Patrick Oduor is an advocate at Wachira Wekhomba Aim & Associates Advocates. He provides professional legal services and representation while maintaining strong ethical standards and dedication to client success. With a deep understanding of the Kenyan legal landscape, Patrick is committed to delivering strategic solutions that protect client interests.
+                      Patrick Oduor is an advocate with the firm. He handles civil litigation and advisory work for individual and corporate clients, and appears in court on matters assigned to him. Clients get a direct line to the person doing the job.
                     </p>
 
                     <div className="space-y-5 mb-10">

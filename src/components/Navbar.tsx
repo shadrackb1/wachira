@@ -84,7 +84,7 @@ const Navbar = () => {
               to="/consultation"
               className="bg-primary text-white px-6 py-2.5 rounded-sm text-sm font-medium hover:bg-primary/90 transition-all duration-300 border border-primary shadow-md hover:shadow-lg hover:-translate-y-0.5"
             >
-              Book Consultation
+              Book a consultation
             </Link>
           </div>
 
@@ -156,7 +156,7 @@ const Navbar = () => {
                   onClick={() => setIsOpen(false)}
                   className="block w-full text-center bg-primary text-white px-5 py-4 rounded-sm text-base font-medium hover:bg-primary/90 transition-colors shadow-lg"
                 >
-                  Book Consultation
+                  Book a consultation
                 </Link>
               </motion.div>
             </div>

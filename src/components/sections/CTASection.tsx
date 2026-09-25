@@ -32,7 +32,7 @@ const CTASection = ({ data }: { data: any }) => {
               to="/consultation" 
               className="bg-accent text-primary font-bold py-5 px-12 rounded-sm hover:bg-white transition-all shadow-xl transform hover:-translate-y-1 hover:shadow-2xl"
             >
-              Request Consultation
+              Request a consultation
             </Link>
             <a 
               href="tel:+254713209487" 

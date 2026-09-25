@@ -25,7 +25,7 @@ const About = () => {
               transition={{ duration: 0.8 }}
               className="font-serif text-5xl md:text-6xl font-bold mb-6"
             >
-              About Us
+              About the firm
             </motion.h1>
             <motion.p 
               initial={{ opacity: 0, y: 20 }}
@@ -33,7 +33,7 @@ const About = () => {
               transition={{ duration: 0.8, delay: 0.2 }}
               className="text-xl md:text-2xl text-gray-200 max-w-3xl mx-auto font-light"
             >
-              Dedicated to excellence, integrity, and client success.
+              Two offices in Kenya. Advocates who take instructions and follow through.
             </motion.p>
           </div>
         </div>
@@ -59,13 +59,13 @@ const About = () => {
                 
                 <div className="prose prose-lg text-gray-600">
                   <p className="mb-6 leading-relaxed">
-                    Wachira Wekhomba Aim & Associates Advocates is a professional law firm committed to delivering high-quality legal services with integrity, professionalism, and dedication. Established with a vision to provide accessible and top-tier legal representation, we serve individuals, businesses, and institutions across Kenya.
+                    Wachira Wekhomba Aim & Associates Advocates is a Kenyan law firm. We act for individuals, businesses, and institutions, with offices in Nairobi and Nakuru.
                   </p>
                   <p className="mb-6 leading-relaxed">
-                    The firm focuses on building strong client relationships while delivering practical legal solutions tailored to each client's needs. We understand that every legal matter is unique, and we approach each case with the attention to detail and strategic thinking it deserves.
+                    Instructions start with the facts and the documents. From there we map the options, the risk, and the cost before any filing or negotiation begins.
                   </p>
                   <p className="leading-relaxed">
-                    With offices in Nairobi and Nakuru, we are strategically positioned to serve clients throughout the region, offering a wide range of legal services from corporate law and commercial transactions to civil litigation and family law.
+                    Corporate and commercial work, civil litigation, property, family law, contracts, employment, and dispute resolution sit under one roof. Clients who need counsel outside those areas get a referral, not a runaround.
                   </p>
                 </div>
               </motion.div>
@@ -85,7 +85,7 @@ const About = () => {
                       <div>
                         <h3 className="font-serif text-2xl font-bold text-gray-900 mb-3">Our Mission</h3>
                         <p className="text-gray-600 leading-relaxed">
-                          To provide exceptional legal services that empower our clients to achieve their objectives while upholding the highest standards of ethics and professionalism.
+                          Give clients competent, ethical representation and advice they can act on.
                         </p>
                       </div>
                     </div>
@@ -106,7 +106,7 @@ const About = () => {
                       <div>
                         <h3 className="font-serif text-2xl font-bold text-gray-900 mb-3">Our Vision</h3>
                         <p className="text-gray-600 leading-relaxed">
-                          To be the preferred legal partner in Kenya, known for our reliability, expertise, and unwavering commitment to justice and client satisfaction.
+                          Be the firm people in Nairobi and Nakuru call first when something needs a lawyer.
                         </p>
                       </div>
                     </div>
@@ -122,17 +122,17 @@ const About = () => {
           <div className="absolute inset-0 opacity-5 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')]"></div>
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div className="text-center mb-20">
-              <h4 className="text-accent font-bold tracking-[0.2em] uppercase text-xs mb-4">What Drives Us</h4>
-              <h2 className="font-serif text-4xl md:text-5xl font-bold mb-6">Our Core Values</h2>
+              <h4 className="text-accent font-bold tracking-[0.2em] uppercase text-xs mb-4">How we work</h4>
+              <h2 className="font-serif text-4xl md:text-5xl font-bold mb-6">Working principles</h2>
               <div className="w-24 h-1 bg-accent mx-auto"></div>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
               {[
-                { title: "Integrity", desc: "We uphold the highest ethical standards in all our dealings, ensuring honesty and transparency." },
-                { title: "Excellence", desc: "We strive for perfection in our legal practice, delivering top-tier quality in every case." },
-                { title: "Dedication", desc: "We are fully committed to our clients' causes, working tirelessly to achieve the best outcomes." },
-                { title: "Client Focus", desc: "We prioritize our clients' needs, offering personalized solutions and responsive communication." }
+                { title: "Integrity", desc: "We tell clients what we think, including when a case is weak." },
+                { title: "Excellence", desc: "Research is done properly. Filings are checked before they leave the office." },
+                { title: "Dedication", desc: "Deadlines are met. Clients hear from us without chasing." },
+                { title: "Client Focus", desc: "Advice is written so a non-lawyer can use it." }
               ].map((value, index) => (
                 <motion.div 
                   key={index}

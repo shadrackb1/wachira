@@ -11,7 +11,7 @@ const Blog = () => {
     {
       id: 1,
       title: "Understanding Property Law in Kenya: A Guide for Buyers",
-      excerpt: "Navigating the complexities of land acquisition, due diligence, and title transfer in the current Kenyan real estate market.",
+      excerpt: "What buyers should check before paying: title search, consents, and how transfer is registered.",
       date: "March 5, 2025",
       author: "Patrick Oduor",
       category: "Property Law",
@@ -20,7 +20,7 @@ const Blog = () => {
     {
       id: 2,
       title: "Employee Rights: Recent Changes in Labour Laws",
-      excerpt: "An analysis of recent court rulings affecting employment contracts, termination procedures, and employee benefits.",
+      excerpt: "Recent rulings on contracts, termination, and benefits, and what employers should change in their paperwork.",
       date: "February 28, 2025",
       author: "Legal Team",
       category: "Employment Law",
@@ -29,7 +29,7 @@ const Blog = () => {
     {
       id: 3,
       title: "The Importance of Corporate Governance for SMEs",
-      excerpt: "Why small and medium enterprises need to establish robust governance structures early to ensure long-term sustainability.",
+      excerpt: "Why SMEs should set board rules, share registers, and signing limits before the first external deal.",
       date: "February 15, 2025",
       author: "Patrick Oduor",
       category: "Corporate Law",
@@ -38,7 +38,7 @@ const Blog = () => {
     {
       id: 4,
       title: "Dispute Resolution: Arbitration vs. Litigation",
-      excerpt: "Comparing the pros and cons of alternative dispute resolution mechanisms versus traditional court processes in commercial disputes.",
+      excerpt: "When arbitration beats a commercial suit in Kenya, and when it doesn't.",
       date: "January 30, 2025",
       author: "Legal Team",
       category: "Dispute Resolution",
@@ -50,8 +50,8 @@ const Blog = () => {
     <PageTransition>
       <div className="bg-gray-50 min-h-screen">
         <Helmet>
-          <title>Legal Insights & Updates | Wachira Wekhomba Aim & Associates</title>
-          <meta name="description" content="Stay informed with the latest legal insights, updates, and articles from our expert advocates." />
+          <title>Legal insights · Wachira Wekhomba Aim & Associates</title>
+          <meta name="description" content="Notes on Kenyan law and procedure from the firm." />
         </Helmet>
 
         {/* Header */}
@@ -64,7 +64,7 @@ const Blog = () => {
               transition={{ duration: 0.8 }}
               className="font-serif text-5xl md:text-6xl font-bold mb-6"
             >
-              Legal Insights & Updates
+              Legal insights
             </motion.h1>
             <motion.p 
               initial={{ opacity: 0, y: 20 }}
@@ -72,7 +72,7 @@ const Blog = () => {
               transition={{ duration: 0.8, delay: 0.2 }}
               className="text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto font-light"
             >
-              Expert analysis on current legal matters in Kenya.
+              Short notes on law and procedure in Kenya.
             </motion.p>
           </div>
         </div>
@@ -118,7 +118,7 @@ const Blog = () => {
                       
                       <div className="pt-6 border-t border-gray-100 mt-auto">
                         <button className="text-primary text-sm font-bold flex items-center hover:text-secondary transition-colors group/btn">
-                          Read Full Article <ArrowRight size={16} className="ml-2 transform group-hover/btn:translate-x-1 transition-transform" />
+                          Read <ArrowRight size={16} className="ml-2 transform group-hover/btn:translate-x-1 transition-transform" />
                         </button>
                       </div>
                     </div>
@@ -140,8 +140,8 @@ const Blog = () => {
                
               <div className="relative z-10 max-w-3xl mx-auto">
                 <BookOpen className="h-12 w-12 text-accent mx-auto mb-6" />
-                <h3 className="font-serif text-3xl md:text-4xl font-bold mb-6">Subscribe to Our Newsletter</h3>
-                <p className="text-gray-200 mb-10 text-lg font-light">Get the latest legal updates, firm news, and expert insights delivered directly to your inbox.</p>
+                <h3 className="font-serif text-3xl md:text-4xl font-bold mb-6">Firm updates by email</h3>
+                <p className="text-gray-200 mb-10 text-lg font-light">Occasional notes on legal changes and firm news. No daily blasts.</p>
                 <form className="flex flex-col sm:flex-row gap-4 max-w-xl mx-auto">
                   <input 
                     type="email" 
@@ -152,7 +152,7 @@ const Blog = () => {
                     Subscribe
                   </button>
                 </form>
-                <p className="text-xs text-gray-400 mt-6">We respect your privacy. Unsubscribe at any time.</p>
+                <p className="text-xs text-gray-400 mt-6">You can unsubscribe any time.</p>
               </div>
             </motion.div>
           </div>

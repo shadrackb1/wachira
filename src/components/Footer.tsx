@@ -18,11 +18,11 @@ const Footer = () => {
               </p>
             </div>
             <p className="text-gray-400 text-sm leading-relaxed">
-              Providing reliable legal representation and professional legal services with integrity and dedication across Kenya.
+              Advocates in Nairobi and Nakuru. Representation, advisory work, and dispute resolution.
             </p>
             <div className="pt-4">
               <Link to="/contact" className="inline-flex items-center text-accent hover:text-white transition-colors text-sm font-bold uppercase tracking-wider group">
-                Get in Touch <ArrowRight size={16} className="ml-2 transform group-hover:translate-x-1 transition-transform" />
+                Contact the firm <ArrowRight size={16} className="ml-2 transform group-hover:translate-x-1 transition-transform" />
               </Link>
             </div>
           </div>
@@ -36,11 +36,11 @@ const Footer = () => {
             <ul className="space-y-4">
               {[
                 { name: 'Home', path: '/' },
-                { name: 'About Us', path: '/about' },
-                { name: 'Practice Areas', path: '/practice-areas' },
-                { name: 'Our Team', path: '/team' },
+                { name: 'About the firm', path: '/about' },
+                { name: 'Practice areas', path: '/practice-areas' },
+                { name: 'People', path: '/team' },
                 { name: 'Insights', path: '/insights' },
-                { name: 'Contact Us', path: '/contact' }
+                { name: 'Contact', path: '/contact' }
               ].map((link) => (
                 <li key={link.name}>
                   <Link to={link.path} className="text-gray-400 hover:text-accent transition-colors text-sm flex items-center group">
@@ -55,7 +55,7 @@ const Footer = () => {
           {/* Contact Info */}
           <div>
             <h4 className="font-serif text-lg font-semibold text-white mb-8 relative inline-block">
-              Contact Us
+              Contact
               <span className="absolute -bottom-2 left-0 w-12 h-0.5 bg-accent"></span>
             </h4>
             <ul className="space-y-6">

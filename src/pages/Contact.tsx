@@ -37,7 +37,7 @@ const Contact = () => {
               transition={{ duration: 0.8 }}
               className="font-serif text-5xl md:text-6xl font-bold mb-6"
             >
-              Contact Us
+              Contact
             </motion.h1>
             <motion.p 
               initial={{ opacity: 0, y: 20 }}
@@ -45,7 +45,7 @@ const Contact = () => {
               transition={{ duration: 0.8, delay: 0.2 }}
               className="text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto font-light"
             >
-              Get in touch with our legal team for professional assistance.
+              Offices in Nairobi and Nakuru. Send a message or call during office hours.
             </motion.p>
           </div>
         </div>
@@ -146,8 +146,8 @@ const Contact = () => {
                   viewport={{ once: true }}
                   className="bg-white p-8 md:p-12 rounded-sm shadow-2xl h-full"
                 >
-                  <h3 className="font-serif text-3xl font-bold text-gray-900 mb-2">Request Legal Consultation</h3>
-                  <p className="text-gray-600 mb-10 text-lg">Fill out the form below and our team will get back to you shortly.</p>
+                  <h3 className="font-serif text-3xl font-bold text-gray-900 mb-2">Request a consultation</h3>
+                  <p className="text-gray-600 mb-10 text-lg">Leave your details and a short note on the problem. We reply during office hours.</p>
                   
                   <form onSubmit={handleSubmit} className="space-y-8">
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -203,7 +203,7 @@ const Contact = () => {
                         required
                         rows={5}
                         className="w-full px-4 py-4 bg-gray-50 border-b-2 border-gray-200 focus:border-primary outline-none transition-all resize-none text-gray-900 placeholder-gray-400"
-                        placeholder="Please briefly describe your legal matter..."
+                        placeholder="Short note on the problem and any deadlines..."
                       ></textarea>
                     </div>
                     
@@ -211,7 +211,7 @@ const Contact = () => {
                       type="submit"
                       className="w-full bg-primary text-white font-bold py-5 px-8 rounded-sm hover:bg-primary/90 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-1 flex items-center justify-center space-x-3 group"
                     >
-                      <span className="text-lg">Send Message</span>
+                      <span className="text-lg">Send message</span>
                       <Send className="h-5 w-5 group-hover:translate-x-1 transition-transform" />
                     </button>
                   </form>

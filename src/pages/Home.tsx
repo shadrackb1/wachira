@@ -16,20 +16,20 @@ const Home = () => {
   // Default content fallback
   const defaultContent = {
     hero: {
-      tagline: "Premier Legal Counsel",
-      title: "Trusted Legal Representation",
-      subtitle: "Wachira Wekhomba Aim & Associates Advocates provides reliable legal representation, advisory services, and dispute resolution for individuals and businesses across Kenya.",
+      tagline: "Advocates · Nairobi & Nakuru",
+      title: "Legal work for people and businesses across Kenya",
+      subtitle: "We handle representation, advisory matters, and dispute resolution from offices in Nairobi and Nakuru.",
       backgroundImage: "https://images.unsplash.com/photo-1589829085413-56de8ae18c73?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80"
     },
     about: {
       title: "Wachira Wekhomba Aim & Associates Advocates",
-      description1: "Wachira Wekhomba Aim & Associates Advocates is a professional law firm committed to delivering reliable and strategic legal solutions. The firm provides high-quality legal representation and advisory services to individuals, businesses, and institutions.",
-      description2: "Our advocates combine legal expertise with practical insight to provide solutions tailored to each client's unique circumstances. We pride ourselves on our integrity, responsiveness, and unwavering dedication to our clients' success.",
+      description1: "The firm acts for individuals, businesses, and institutions. Work covers representation in court, advisory opinions, and negotiated settlements.",
+      description2: "Every matter gets a clear view of the options, the likely cost, and the next step. We keep clients informed and we don't overclaim about outcomes.",
       image: "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80"
     },
     cta: {
-      title: "Need Professional Legal Advice?",
-      description: "We are ready to listen to your case and provide the strategic legal guidance you need. Contact us today to schedule a consultation with our expert team."
+      title: "Need a lawyer to look at this?",
+      description: "Tell us what happened. We'll say whether we can help and what a consultation covers."
     }
   };
 
@@ -39,8 +39,8 @@ const Home = () => {
     <PageTransition>
       <div className="overflow-hidden">
         <Helmet>
-          <title>Wachira Wekhomba Aim & Associates Advocates | Law Firm Kenya</title>
-          <meta name="description" content="Professional law firm providing legal representation, advisory services, and dispute resolution in Nairobi and Nakuru, Kenya." />
+          <title>Wachira Wekhomba Aim & Associates Advocates · Advocates, Kenya</title>
+          <meta name="description" content="Advocates in Nairobi and Nakuru. Representation, advisory work, and dispute resolution for individuals and businesses across Kenya." />
         </Helmet>
 
         {content.sections ? (

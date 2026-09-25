@@ -9,32 +9,32 @@ const PracticeAreasSection = ({ data }: { data: any }) => {
     { 
       title: "Corporate Law", 
       icon: <Briefcase className="h-8 w-8" />, 
-      desc: "Comprehensive legal solutions for businesses, including incorporation, compliance, and governance." 
+      desc: "Incorporation, governance, compliance, and restructuring for companies of different sizes." 
     },
     { 
       title: "Civil Litigation", 
       icon: <Gavel className="h-8 w-8" />, 
-      desc: "Expert representation in civil disputes, ensuring your rights and interests are vigorously defended." 
+      desc: "Court representation for debt recovery, tort claims, and employment disputes." 
     },
     { 
       title: "Property & Land Law", 
       icon: <MapPin className="h-8 w-8" />, 
-      desc: "Guidance on real estate transactions, land transfers, leases, and property dispute resolution." 
+      desc: "Sales, leases, transfers, conveyancing, and disputes over title or land use." 
     },
     { 
       title: "Family Law", 
       icon: <Users className="h-8 w-8" />, 
-      desc: "Compassionate legal support for divorce, custody, succession, and other family-related matters." 
+      desc: "Divorce, custody, succession, wills, and related family matters, handled with discretion." 
     },
     { 
       title: "Commercial Law", 
       icon: <Scale className="h-8 w-8" />, 
-      desc: "Strategic advice on commercial contracts, trade regulations, and business operations." 
+      desc: "Commercial contracts, trade regulation, intellectual property, and consumer protection." 
     },
     { 
       title: "Legal Advisory", 
       icon: <Shield className="h-8 w-8" />, 
-      desc: "Professional legal opinions and advisory services to help you make informed decisions." 
+      desc: "Written opinions and ongoing advisory so clients know their position and risk." 
     },
   ];
 
@@ -42,11 +42,11 @@ const PracticeAreasSection = ({ data }: { data: any }) => {
     <section className="py-32 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-24">
-          <h4 className="text-primary font-bold tracking-[0.2em] uppercase text-xs mb-4">Our Expertise</h4>
-          <h2 className="font-serif text-4xl md:text-6xl font-bold text-gray-900 mb-8">Practice Areas</h2>
+          <h4 className="text-primary font-bold tracking-[0.2em] uppercase text-xs mb-4">What we do</h4>
+          <h2 className="font-serif text-4xl md:text-6xl font-bold text-gray-900 mb-8">Practice areas</h2>
           <div className="w-24 h-1 bg-accent mx-auto mb-8"></div>
           <p className="text-gray-600 max-w-2xl mx-auto text-xl font-light">
-            We offer a comprehensive range of legal services designed to meet the diverse needs of our clients.
+            Nine practice areas, listed below. If yours isn't there, call and ask.
           </p>
         </div>
 
@@ -66,7 +66,7 @@ const PracticeAreasSection = ({ data }: { data: any }) => {
                 <h3 className="font-serif text-2xl font-bold text-gray-900 mb-4 group-hover:text-primary transition-colors">{area.title}</h3>
                 <p className="text-gray-600 mb-8 text-sm leading-relaxed">{area.desc}</p>
                 <Link to="/consultation" className="text-primary text-sm font-bold hover:text-secondary inline-flex items-center uppercase tracking-wide group-hover:translate-x-2 transition-transform">
-                  Learn More <ArrowRight className="ml-2 h-4 w-4" />
+                  Discuss this area <ArrowRight className="ml-2 h-4 w-4" />
                 </Link>
               </TiltCard>
             </motion.div>
@@ -78,7 +78,7 @@ const PracticeAreasSection = ({ data }: { data: any }) => {
             to="/practice-areas" 
             className="inline-block border-2 border-primary text-primary font-bold py-4 px-12 rounded-sm hover:bg-primary hover:text-white transition-all duration-300 uppercase tracking-wider text-sm hover:shadow-lg"
           >
-            View All Practice Areas
+            See all practice areas
           </Link>
         </div>
       </div>

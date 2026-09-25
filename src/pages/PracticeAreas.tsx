@@ -11,47 +11,47 @@ const PracticeAreas = () => {
     {
       title: "Corporate Law",
       icon: <Briefcase className="h-10 w-10" />,
-      description: "We provide comprehensive legal solutions for businesses of all sizes. Our services include company incorporation, corporate governance, compliance, mergers and acquisitions, and restructuring. We help you navigate the complex regulatory landscape to ensure your business operates smoothly."
+      description: "Company incorporation, governance, compliance, mergers and acquisitions, and restructuring. We work with startups through to established companies and deal with the regulators that sit behind those steps."
     },
     {
       title: "Civil Litigation",
       icon: <Gavel className="h-10 w-10" />,
-      description: "Our litigation team offers expert representation in civil disputes. Whether it's debt recovery, tort claims, or employment disputes, we are dedicated to protecting your rights and interests in court. We also explore alternative dispute resolution mechanisms where appropriate."
+      description: "Court work for debt recovery, tort claims, and employment disputes. Where negotiation or mediation gets a better result than a hearing, we say so early."
     },
     {
       title: "Property & Land Law",
       icon: <MapPin className="h-10 w-10" />,
-      description: "We guide clients through real estate transactions, including buying and selling property, leasing, and land transfers. We also handle property disputes, land use planning, and conveyancing to ensure your investments are secure."
+      description: "Purchases, sales, leases, and transfers. Also disputes over title, land use, and conveyancing. Due diligence runs before money changes hands."
     },
     {
       title: "Family Law",
       icon: <Users className="h-10 w-10" />,
-      description: "We offer compassionate and confidential legal support for family-related matters. Our expertise covers divorce proceedings, child custody and support, adoption, matrimonial property division, and succession planning (wills and probate)."
+      description: "Divorce, custody and child support, adoption, matrimonial property, wills, and probate. These matters are handled with discretion."
     },
     {
       title: "Commercial Law",
       icon: <Scale className="h-10 w-10" />,
-      description: "Our commercial law practice focuses on drafting and reviewing commercial contracts, trade regulations, intellectual property protection, and consumer protection. We ensure your commercial agreements are robust and legally sound."
+      description: "Drafting and reviewing commercial contracts, trade regulation, intellectual property, and consumer protection. Agreements are written to hold up when something goes wrong."
     },
     {
       title: "Contract Law",
       icon: <FileSignature className="h-10 w-10" />,
-      description: "We specialize in the drafting, review, and negotiation of all types of contracts. From employment contracts to service agreements, we ensure that your rights are protected and that terms are clear and enforceable."
+      description: "Drafting, review, and negotiation. Employment contracts, service agreements, and commercial terms. The aim is clear obligations and enforceable rights."
     },
     {
       title: "Legal Advisory Services",
       icon: <Shield className="h-10 w-10" />,
-      description: "We provide professional legal opinions and general advisory services to individuals and corporations. Our goal is to help you understand your legal position and make informed decisions in any situation."
+      description: "Written legal opinions and ongoing advisory work for individuals and companies. You get a clear statement of position, options, and risk."
     },
     {
       title: "Dispute Resolution",
       icon: <Handshake className="h-10 w-10" />,
-      description: "Beyond litigation, we offer mediation and arbitration services to resolve disputes efficiently and amicably. We focus on achieving favorable outcomes while preserving relationships and minimizing costs."
+      description: "Mediation and arbitration where court is the wrong tool. Cost and relationship are weighed alongside the merits."
     },
     {
       title: "Employment & Labour Law",
       icon: <UserCheck className="h-10 w-10" />,
-      description: "We advise both employers and employees on labour laws, employment contracts, termination procedures, and workplace policies. We ensure compliance with the Employment Act and represent clients in labour court disputes."
+      description: "Advice for employers and employees under the Employment Act. Contracts, terminations, workplace policies, and representation in labour disputes."
     },
   ];
 
@@ -59,8 +59,8 @@ const PracticeAreas = () => {
     <PageTransition>
       <div className="bg-gray-50">
         <Helmet>
-          <title>Practice Areas | Wachira Wekhomba Aim & Associates</title>
-          <meta name="description" content="Explore our comprehensive legal services including Corporate Law, Civil Litigation, Property Law, and more." />
+          <title>Practice areas · Wachira Wekhomba Aim & Associates</title>
+          <meta name="description" content="Corporate, litigation, property, family, commercial, contracts, advisory, dispute resolution, and employment law." />
         </Helmet>
 
         {/* Header */}
@@ -73,7 +73,7 @@ const PracticeAreas = () => {
               transition={{ duration: 0.8 }}
               className="font-serif text-5xl md:text-6xl font-bold mb-6"
             >
-              Practice Areas
+              Practice areas
             </motion.h1>
             <motion.p 
               initial={{ opacity: 0, y: 20 }}
@@ -81,7 +81,7 @@ const PracticeAreas = () => {
               transition={{ duration: 0.8, delay: 0.2 }}
               className="text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto font-light"
             >
-              Comprehensive legal solutions tailored to your specific needs.
+              What we do, in plain terms. Pick the area that matches your problem.
             </motion.p>
           </div>
         </div>
@@ -110,7 +110,7 @@ const PracticeAreas = () => {
                         {service.description}
                       </p>
                       <Link to="/consultation" className="inline-flex items-center text-primary font-bold text-sm uppercase tracking-wide group-hover:translate-x-2 transition-transform">
-                        Learn More <ArrowRight className="ml-2 h-4 w-4" />
+                        Discuss this area <ArrowRight className="ml-2 h-4 w-4" />
                       </Link>
                     </div>
                   </TiltCard>
@@ -126,13 +126,13 @@ const PracticeAreas = () => {
           <div className="max-w-4xl mx-auto px-4 text-center relative z-10">
             <h2 className="font-serif text-3xl md:text-4xl font-bold text-gray-900 mb-6">Not sure which service you need?</h2>
             <p className="text-gray-600 mb-10 text-xl font-light">
-              Contact us for a preliminary consultation. We will assess your situation and guide you towards the right legal solution.
+              Call or send a short note about the problem. We'll point you to the right area or tell you if you need someone else.
             </p>
             <Link 
               to="/consultation" 
               className="inline-block bg-primary text-white font-bold py-4 px-10 rounded-sm hover:bg-primary/90 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-1"
             >
-              Get in Touch
+              Contact the firm
             </Link>
           </div>
         </section>

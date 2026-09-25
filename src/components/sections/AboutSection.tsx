@@ -32,10 +32,10 @@ const AboutSection = ({ data }: { data: any }) => {
             
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-12">
               {[
-                "Experienced Attorneys",
-                "Client-Centric Approach",
-                "Integrity & Transparency",
-                "Strategic Legal Solutions"
+                "Advocates who do the work themselves",
+                "Plain-language advice",
+                "Clear fees and next steps",
+                "Nairobi and Nakuru offices"
               ].map((item, index) => (
                 <div key={index} className="flex items-center space-x-3 group">
                   <div className="bg-accent/10 p-2 rounded-full group-hover:bg-accent group-hover:text-white transition-colors duration-300">
@@ -47,7 +47,7 @@ const AboutSection = ({ data }: { data: any }) => {
             </div>
 
             <Link to="/consultation" className="inline-flex items-center text-primary font-bold hover:text-secondary transition-colors text-lg group border-b-2 border-primary/20 pb-1 hover:border-primary">
-              Learn More About Us <ArrowRight className="ml-2 h-5 w-5 transform group-hover:translate-x-2 transition-transform" />
+              Read about the firm <ArrowRight className="ml-2 h-5 w-5 transform group-hover:translate-x-2 transition-transform" />
             </Link>
           </motion.div>
           

@@ -46,13 +46,13 @@ const HeroSection = ({ data }: { data: any }) => {
               className="group relative bg-accent text-primary font-bold py-4 px-10 rounded-sm overflow-hidden shadow-xl"
             >
               <span className="absolute inset-0 w-full h-full bg-white/20 transform -translate-x-full group-hover:translate-x-0 transition-transform duration-300 ease-out"></span>
-              <span className="relative z-10">Book Consultation</span>
+              <span className="relative z-10">Book a consultation</span>
             </Link>
             <Link 
               to="/contact" 
               className="group bg-transparent border-2 border-white text-white font-bold py-4 px-10 rounded-sm transition-all hover:bg-white hover:text-primary shadow-xl"
             >
-              Contact Our Advocates
+              Contact the firm
             </Link>
           </div>
         </motion.div>
@@ -65,7 +65,6 @@ const HeroSection = ({ data }: { data: any }) => {
         transition={{ delay: 1.5, duration: 1 }}
         className="absolute bottom-10 left-1/2 transform -translate-x-1/2 flex flex-col items-center"
       >
-        <span className="text-white/70 text-xs tracking-widest uppercase mb-2">Scroll</span>
         <div className="w-px h-12 bg-gradient-to-b from-white to-transparent"></div>
       </motion.div>
     </section>
